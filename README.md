@@ -1,3 +1,79 @@
+# Project Overview
+
+Come here to share your love for plants and get new ideas from other plant lovers.
+
+## Zen Garden 
+
+www.zengarden.com
+
+## Project Description
+
+Post and share your favorite plants. See everyone else's favorites, and get great new ideas for your home and/or garden.
+
+## API and Data Sample???
+
+
+
+## Wireframes
+
+<img width="353" alt="LWL wireframe" src="https://user-images.githubusercontent.com/82413689/122941528-77233e00-d343-11eb-87b1-beb92c54b672.png">
+
+#### MVP 
+
+- Event listener for input/new posts
+- Append API images, ingredients, and instructions
+- Removal of previous api call data
+
+#### PostMVP  
+
+
+
+## Project Schedule
+
+| Date  | Project Tasks                                                                   |Task Status |
+|-------|---------------------------------------------------------------------------------|------------|
+|July 13| Prompt / Wireframes / Priority Matrix / Timeframes                              | Incomplete |
+|July 14| Project Approval / Core App Structure (HTML CSS)                                | Incomplete |
+|July 15| Javascript / API integration                                                    | Incomplete |
+|July 16| Fine tuning (verify everything is operational and clean up webpage appearance)  | Incomplete |
+|July 19| Work on any issues or blockers and final testing                                | Incomplete |
+|July 20| Presentations                                                                   | Incomplete |
+
+## Priority Matrix
+
+![Screen Shot 2021-06-21 at 8 01 53 PM](https://user-images.githubusercontent.com/82413689/122937429-fa429500-d33f-11eb-98af-c30614425f6a.png)
+
+## Timeframes
+
+|   Date    |    Component     | Priority | Estimated Time | Time Invested | Actual Time |
+|-----------|------------------|----------|----------------|---------------|-------------|
+|  June 21  | Project Proposal |   High   |      8hrs      |   8hrs        |   8hrs      |
+|  June 22  | JS               |   High   |      4hrs      |   2hrs        |   2hrs      |
+|  June 22  | JS & AT          |   High   |      4hrs      |   6hrs        |   6hrs      |
+|  June 23  | JS               |   High   |      4hrs      |   4hrs        |   4hrs      |
+|  June 23  | Styling          |   High   |      4hrs      |   4hrs        |   4hrs      |
+|  June 24  | Fine tuning      |   High   |      8hrs      |   8hrs        |   8hrs      |
+|  June 25  | Blockers         |   High   |      8hrs      |   4hrs        |   4hrs      |
+|  June 28  |     Total        |   High   |     40hrs      |  36hrs        |  36hrs      |
+
+## Code Snippet
+
+
+
+## Change Log
+
+No significant changes made.
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +144,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
