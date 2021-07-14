@@ -29,7 +29,7 @@ export default function NewPlant() {
     e.preventDefault();
     const res = await axios.post(BASE_URL, { fields: input }, { headers });
     console.log(res);
-    history.push("/all-albums");
+    history.push("/new-plant");
   };
 
   return (
@@ -39,7 +39,7 @@ export default function NewPlant() {
         <label>User Name</label>
         <br />
         <input
-          id="userName" value={input.userName} onChange={handleChange} placeholder="Plant Name" />
+          id="userName" value={input.userName} onChange={handleChange} />
         <br />
         <label>Plant Name</label>
         <br />

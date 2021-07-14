@@ -6,7 +6,7 @@ export default function NavBar() {
     <div>
 
       <div className="left-nav">
-        <Link className="logo" to="/"><h4>Zen Garden</h4></Link>
+        <Link className="home" to="/"><h4>Zen Garden</h4></Link>
       </div>
 
       <div className="right-nav">
