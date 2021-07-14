@@ -12,6 +12,20 @@ Post and share your favorite plants. See everyone else's favorites, and get grea
 
 ## API and Data Sample
 
+```
+{
+            "id": "recoD8fbbzeRI4c45",
+            "fields": {
+                "plantLocation": "desk",
+                "plantDescription": "cactus",
+                "plantImage": "url",
+                "plantName": "succulent",
+                "userName": "me"
+            },
+            "createdTime": "2021-07-13T23:16:13.000Z"
+        },
+```
+
 ![Screen Shot 2021-07-14 at 9 15 27 AM](https://user-images.githubusercontent.com/82413689/125628509-b20f3ccc-349c-433e-95f9-296cc28d84e4.png)
 
 ## Wireframes
@@ -28,7 +42,8 @@ Post and share your favorite plants. See everyone else's favorites, and get grea
 - Render data and images in components
 - Removal of previous api call data
 - Post new data to airtable via Axios
-- 
+- media query
+- css flexbox
 
 #### PostMVP  
 
@@ -51,16 +66,16 @@ Post and share your favorite plants. See everyone else's favorites, and get grea
 
 ## Timeframes
 
-|   Date    |    Component     | Priority | Estimated Time | Time Invested | Actual Time |
-|-----------|------------------|----------|----------------|---------------|-------------|
-|  June 21  | Project Proposal |   High   |      8hrs      |   8hrs        |   8hrs      |
-|  June 22  | JS               |   High   |      4hrs      |   2hrs        |   2hrs      |
-|  June 22  | JS & AT          |   High   |      4hrs      |   6hrs        |   6hrs      |
-|  June 23  | JS               |   High   |      4hrs      |   4hrs        |   4hrs      |
-|  June 23  | Styling          |   High   |      4hrs      |   4hrs        |   4hrs      |
-|  June 24  | Fine tuning      |   High   |      8hrs      |   8hrs        |   8hrs      |
-|  June 25  | Blockers         |   High   |      8hrs      |   4hrs        |   4hrs      |
-|  June 28  |     Total        |   High   |     40hrs      |  36hrs        |  36hrs      |
+|    Component     | Priority | Estimated Time | Time Invested | Actual Time |
+|------------------|----------|----------------|---------------|-------------|
+| Project Proposal |   High   |      8hrs      |   8hrs        |   8hrs      |
+| JS               |   High   |      4hrs      |   2hrs        |   2hrs      |
+| JS & AT          |   High   |      4hrs      |   6hrs        |   6hrs      |
+| JS               |   High   |      4hrs      |   4hrs        |   4hrs      |
+| Styling          |   High   |      4hrs      |   4hrs        |   4hrs      |
+| Fine tuning      |   High   |      8hrs      |   8hrs        |   8hrs      |
+| Blockers         |   High   |      8hrs      |   4hrs        |   4hrs      |
+|     Total        |   High   |     40hrs      |  36hrs        |  36hrs      |
 
 ## Change Log
 
