@@ -8,11 +8,17 @@ export default function NavBar() {
       <div className="left-nav">
         <Link className="home" to="/"><h4>Zen Garden</h4></Link>
       </div>
-
       <div className="right-nav">
         <Link className="nav-link" to="/new-plant">Share</Link>
+      </div>
+
+      <br />
+
+      <div>
         <Link className="nav-link" to="/about">About</Link>
       </div>
+
+      <br />
 
     </div>
   )
