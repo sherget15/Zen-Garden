@@ -16,7 +16,11 @@ Post and share your favorite plants. See everyone else's favorites, and get grea
 
 ## Wireframes
 
-<img width="353" alt="LWL wireframe" src="https://user-images.githubusercontent.com/82413689/122941528-77233e00-d343-11eb-87b1-beb92c54b672.png">
+![Screen Shot 2021-07-14 at 12 50 21 PM](https://user-images.githubusercontent.com/82413689/125661298-7b43df8b-bbbb-4cfc-b8f4-b7631fae48fe.png)
+
+## Code Snippet
+
+![Screen Shot 2021-07-14 at 12 52 52 PM](https://user-images.githubusercontent.com/82413689/125661854-fccfcee6-bd89-4a90-956a-4ac1b5444915.png)
 
 #### MVP 
 
@@ -56,13 +60,16 @@ Post and share your favorite plants. See everyone else's favorites, and get grea
 |  June 25  | Blockers         |   High   |      8hrs      |   4hrs        |   4hrs      |
 |  June 28  |     Total        |   High   |     40hrs      |  36hrs        |  36hrs      |
 
-## Code Snippet
-
-
-
 ## Change Log
 
 No significant changes made.
+
+
+
+
+
+
+
 
 
 
