@@ -28,6 +28,7 @@ Post and share your favorite plants. See everyone else's favorites, and get grea
 - Render data and images in components
 - Removal of previous api call data
 - Post new data to airtable via Axios
+- 
 
 #### PostMVP  
 
