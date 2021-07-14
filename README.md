@@ -10,9 +10,9 @@ www.zengarden.com
 
 Post and share your favorite plants. See everyone else's favorites, and get great new ideas for your home and/or garden.
 
-## API and Data Sample???
+## API and Data Sample
 
-
+![Screen Shot 2021-07-14 at 9 15 27 AM](https://user-images.githubusercontent.com/82413689/125628509-b20f3ccc-349c-433e-95f9-296cc28d84e4.png)
 
 ## Wireframes
 
