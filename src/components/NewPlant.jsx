@@ -11,7 +11,7 @@ export default function NewPlant() {
   const [plantDescription, setPlantDescription] = useState('');
 
   const history = useHistory();
-  const [input] = useState({});
+  // const [input] = useState({});
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -23,10 +23,10 @@ export default function NewPlant() {
       plantDescription,
     };
 
-    const res = await axios.post(BASE_URL, { fields: input }, { headers });
+    const res = await axios.post(BASE_URL, { fields }, { headers });
     console.log(res);
     setUserName("");
-    history.push(`//${res.data.id}`);
+    history.push(`/${res.data.id}`);
   };
 
   return (
