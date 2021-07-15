@@ -12,9 +12,15 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Route path="/"></Route>
-      <Route exact path="/home"><NewPlant /></Route>
-      <Route exact path="/about"></Route>
+      <Route exact path="/new-plant">
+        <NewPlant />
+      </Route>
+      <Route exact path="/about">
+        <About />
+      </Route>
+      <Route exact path="/">
+        <Home />
+      </Route>
       <Footer />
     </div>
   );
