@@ -3,24 +3,13 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <div>
+    <ul className="navigation">
+      <li><img className="logo" src="https://cdn5.vectorstock.com/i/1000x1000/49/44/yoga-lotus-with-zen-circle-logo-template-vector-15844944.jpg" alt="rainbow-circle" /></li>
+      <li><Link className="home" to="/">Zen Garden</Link></li>
+      <li><Link className="nav-link" to="/new-plant">Share</Link></li>
+      <li><Link className="nav-link" to="/about">About</Link></li>
+    </ul>
 
-      <div className="left-nav">
-        <Link className="home" to="/"><h4>Zen Garden</h4></Link>
-      </div>
-      <div className="right-nav">
-        <Link className="nav-link" to="/new-plant">Share</Link>
-      </div>
 
-      <br />
-
-      <div>
-        <Link className="nav-link" to="/about">About</Link>
-      </div>
-
-      <br />
-
-    </div>
   );
 }
-

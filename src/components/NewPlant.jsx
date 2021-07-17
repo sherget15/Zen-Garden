@@ -39,7 +39,7 @@ export default function NewPlant() {
         <label>Plant Name</label>   <input type="text" value={plantName} onChange={(e) => setPlantName(e.target.value)} />
         <br />
         <br />
-        <label>plantLocation</label>   <input type="text" value={plantLocation} onChange={(e) => setPlantLocation(e.target.value)} />
+        <label>Plant Location</label>   <input type="text" value={plantLocation} onChange={(e) => setPlantLocation(e.target.value)} />
         <br />
         <br />
         <label>Plant Image</label>   <input type="text" value={plantImage} onChange={(e) => setPlantImage(e.target.value)} />
