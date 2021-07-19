@@ -1,16 +1,136 @@
-.card-container {
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.nav-main {
   display: flex;
+  top: 0;
+  justify-content: space-between;
+  width: 100vw;
+  /* flex: 1 100%; */
+  position: fixed;
+  /* flex-flow: row wrap; */
+  /* align-items: center; */
+  list-style: none;
+  margin: 0;
+  background: white;
+  align-items: center;
+}
+
+.navigation .nav-left {
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  text-decoration-line: none;
+  padding: 1em;
+  color: white;
+}
+
+.navigation .nav-right {
+  display: flex;
+  list-style: none;
+  justify-self: flex-end;
+  text-decoration: none;
+  padding: 1em;
+  color: white;
+}
+
+.navigation li:hover {
+  background: black;
+}
+
+.card-container {
+  height: 99%;
+  display: flex;
+  flex-direction: column;
   flex-flow: wrap;
+  flex: 100%;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 15%;
+  margin: 4px;
+  flex-grow: 1;
+}
+
+.card-spacing {
+  display: flex;
   flex: 1 100%;
+  width: 25%;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  background: white;
+}
+
+.footer li {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    flex-flow: wrap;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation li {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  /* .navigation li:last-of-type li {
+    border-bottom: none;
+  }*/
 }
 
 
+
+
+
+
+/* EVERYTHIG WORKING PROPERLY FOR SUBMISSION */
+
+
+/* .card-container {
+  display: flex;
+  flex-flow: wrap;
+  flex: 100%;
+}
 
 .card {
   border: 1px solid black;
   border-radius: 15%;
   margin: 4px;
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
 
 .card-spacing {
@@ -56,11 +176,10 @@
   background: white;
 }
 
-.footer li {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: white;
+.footer li text-decoration: none;
+display: block;
+padding: 1em;
+color: white;
 }
 
 @media all and (max-width: 800px) {
@@ -94,10 +213,7 @@
   list-style: none;
   margin: 0;
   background-color: black;
-}
-
-
-
+} */
 
 
 
