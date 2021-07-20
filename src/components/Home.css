@@ -34,22 +34,26 @@
 }
 
 .card-container {
+  /* height: 99%;
+  width: 100vw; */
   display: flex;
-  flex-flow: wrap column;
-  height: 99%;
-  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   border: 1px solid black;
   border-radius: 15%;
+  flex: 1 100%;
   margin: 4px;
+  /* width: 100%; */
 }
 
 .card-spacing {
   display: flex;
-  flex: 1 100%;
-  width: 25%;
+  /* flex: 1 100%; */
+  /* width: 25%; */
 }
 
 .logo {
