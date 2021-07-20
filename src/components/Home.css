@@ -1,49 +1,41 @@
 * {
-  border: 0;
+  overflow: auto;
   margin: 0;
-  padding: 0;
-  line-height: 1;
 }
 
 .nav-main {
   display: flex;
   top: 0;
-  justify-content: space-between;
-  width: 100vw;
-  /* flex: 1 100%; */
-  position: fixed;
-  /* flex-flow: row wrap; */
-  /* align-items: center; */
-  list-style: none;
   margin: 0;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
   background: white;
-  align-items: center;
 }
 
-.navigation .nav-left {
-  align-items: center;
-  list-style: none;
-  text-decoration: none;
-  text-decoration-line: none;
-  padding: 1em;
-  color: white;
-}
-
-.navigation .nav-right {
+.nav-left {
   display: flex;
-  list-style: none;
-  justify-self: flex-end;
-  text-decoration: none;
-  padding: 1em;
-  color: white;
+  align-items: center;
 }
 
-.navigation li:hover {
-  background: black;
+.Zen-Garden {
+  justify-content: start;
+  align-content: space-around;
+}
+
+.logo {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.About {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .card-container {
   height: 99%;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   flex-flow: wrap;
@@ -71,46 +63,25 @@
 
 .footer {
   display: flex;
-  flex-flow: row wrap;
+  width: 100vw;
   position: fixed;
   bottom: 0;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
   margin: 0;
-  background: white;
-}
-
-.footer li {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: white;
+  background: black;
 }
 
 @media all and (max-width: 800px) {
   .navigation {
-    flex-flow: wrap;
+    flex-flow: column wrap;
   }
 }
 
 @media all and (max-width: 500px) {
   .navigation {
     flex-flow: column wrap;
-    padding: 0;
   }
-
-  .navigation li {
-    text-align: center;
-    padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  /* .navigation li:last-of-type li {
-    border-bottom: none;
-  }*/
 }
+
 
 
 
