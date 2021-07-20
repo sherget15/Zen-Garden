@@ -35,19 +35,15 @@
 
 .card-container {
   display: flex;
-  flex-direction: column;
-  flex-flow: wrap;
-  flex: 100%;
+  flex-flow: wrap column;
   height: 99%;
-  width: fit-content;
+  width: 100vw;
 }
 
 .card {
-  flex: 1;
   border: 1px solid black;
   border-radius: 15%;
   margin: 4px;
-  flex-grow: 1;
 }
 
 .card-spacing {
