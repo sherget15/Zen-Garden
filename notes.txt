@@ -1,0 +1,64 @@
+-----To Do List--------
+drop down menu for mobile formats
+footer
+opacity of images and/or text in posts
+about page - CSS 
+share page - CSS 
+improve media queries 
+make header & footer fixed
+
+
+*Extras*
+change body to column layout 
+make card sizes more dynamic
+add video for body background
+
+
+
+
+
+
+-----PlantInfo.jsx-----
+
+import { useEffect, useState } from 'react';
+import { useParams, useHistory } from 'react-router';
+import axios from 'axios';
+import React from 'react';
+import { BASE_URL, headers } from "../services";
+
+export default function PlantInfo() {
+  const [plants, setPlants] = useState({});
+  const { id } = useParams();
+  const history = useHistory();
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    const res = await axios.get(BASE_URL, { headers });
+    setPlant(res.data);
+  };
+
+  const handleDelete = async () => {
+    const res = await axios.delete(BASE_URL, { headers });
+    console.log(res);
+    history.push("/home");
+  };
+
+  
+  return (
+    <div>
+      <h2>{plant.fields?.userName}</h2>
+      <h2>{plant.fields?.plantName}</h2>
+      <p>{plant.fields?.plantLocation}</p>
+      <img src={plant.fields?.image} alt={plant.fields?.name} />
+      <p>{plant.fields?.plantDescription}</p>
+
+      <Link to={`/edit-recipe/${id}`}>Edit Recipe</Link>
+      <button onClick={handleDelete}>Delete Recipe</button>
+    </div>
+  );
+}
+
+-----PlantInfo.jsx-----
