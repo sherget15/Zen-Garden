@@ -10,10 +10,8 @@ export default function NavBar() {
         <Link to="/" className="Zen-Garden">Zen Garden</Link>
       </div>
 
-      <div className="left-name">
-      </div>
-
       <div className="nav-right">
+
         <ul>
 
           <Link
