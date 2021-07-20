@@ -34,12 +34,12 @@
 }
 
 .card-container {
-  height: 99%;
-  width: fit-content;
   display: flex;
   flex-direction: column;
   flex-flow: wrap;
   flex: 100%;
+  height: 99%;
+  width: fit-content;
 }
 
 .card {
