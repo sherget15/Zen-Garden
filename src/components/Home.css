@@ -71,14 +71,18 @@
 }
 
 @media all and (max-width: 800px) {
-  .navigation {
-    flex-flow: column wrap;
+  .nav-main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 }
 
 @media all and (max-width: 500px) {
   .navigation {
-    flex-flow: column wrap;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 }
 
